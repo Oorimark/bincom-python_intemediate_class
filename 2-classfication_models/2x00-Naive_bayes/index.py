@@ -5,8 +5,7 @@ import pandas as pd
 import os
 
 # change directory to working
-parent = "2-classification_models\data"
-os.chdir(os.getcwd() + "\\" + parent)
 
+os.chdir(os.getcwd() + "\\" + "2-classification_models\data")
 data = pd.read_csv('tested.csv')
 print(data.head)
