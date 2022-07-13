@@ -1,6 +1,5 @@
 from select import error
 
-
 def loading(msg = ""):
     print(f"loading... 📍 \n{msg}")
      

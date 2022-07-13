@@ -11,8 +11,8 @@ data = pd.read_csv('HousingData.csv');
 # fill null with average
 data = data.fillna(data.mean())
 
-x = data[['LSTAT','RM','NOX','PTRATIO','DIS','AGE']]
-y = data['MEDV']
+x = data[['LSTAT','RM','NOX','PTRATIO','DIS','AGE']] # indepedent variables | input
+y = data['MEDV'] # dependent variables | output
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=.3, random_state=102)
 

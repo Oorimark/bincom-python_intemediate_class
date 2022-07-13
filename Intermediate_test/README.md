@@ -1,4 +1,4 @@
-#### INTEMEDIATE TEST
+### INTEMEDIATE TEST
 
 #### QUESTION
     Loan eligibility prediction using python
@@ -7,7 +7,7 @@
 #### SUMMARY
     The application is a console based application with series of prompts and output. Jojo, the bot, would guide you through the journey as you run the application. Jojo is not built complete though but he would make sure he start the journey with you
 
-#### WORKING PRINCIPLE
+#### HOW IT WORKS
     The application runs two model to do prediction and each of them has different accuracy. The models are RandomForestClassifier and Naive Bayes. Jojo would ask you the model you want to choose and when you make you choice the data would run based on the selected model.
 
     The output is just the accuracy score of the selected model.
